@@ -167,6 +167,32 @@ h4 {
   margin: 10px 6px;
   color: black;
 }
+#topBtn {
+  display: none;
+  /*display none by default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  background-color: #3ab7bb;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px
+}
+
+#topBtn:hover {
+  background-color: #555
+}
+
+/*customer services styles*/
+.customer-serv{
+  text-align: center;
+  padding-top: 3rem;
+}
+.header-1-serv{
+  text-align: center;
+}
 /* media */
 @media only screen and (max-width: 980px){
   .btn-serv {
